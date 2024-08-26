@@ -12,10 +12,10 @@ public class parOImpar {
         int number = input.nextInt();
         try {
             input.close();
-        } catch (Exception e) {
-
-        }
+        } catch (Exception e) {}
         System.out.printf("El numero %d es %s",
             number,(number%2==0)? "Par" : "Impar");
     }
 }
+
+// Complejidad ciclomatica
