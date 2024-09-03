@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class imc {
 
-    public String imcText(double imc){
+    public static String imcText(double imc){
         String texto;
         if (imc>=30)
             texto = "Obesidad";
@@ -29,8 +29,7 @@ public class imc {
             input.close();
         } catch (Exception e) {}
         System.out.printf("Tu imc es: %.1f",peso/altura);
-        imc object = new imc();
-        System.out.printf("\nTu peso esta en: %s",object.imcText(peso/altura));
+        System.out.printf("\nTu peso esta en: %s",imcText(peso/altura));
 
     }
 }
