@@ -1,8 +1,10 @@
 class Metodos {
-    // parametro argumento (parametro se recibe / argumento se da)
-    // static se utiliza para evitar instanciar
-    // public es la visibilidad / encapsulamiento
-    // publico, privado y protegido (package por defecto)
+    /*
+    parametro argumento (parametro se recibe / argumento se da)
+    static se utiliza para evitar instanciar
+    public es la visibilidad / encapsulamiento
+    publico, privado y protegido (package por defecto)
+     */
 
     public static int suma(byte x, byte y){
         return (x + y);
