@@ -1,3 +1,4 @@
+package notas;
 class Metodos {
     /*
     parametro argumento (parametro se recibe / argumento se da)

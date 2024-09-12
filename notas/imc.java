@@ -1,3 +1,4 @@
+package notas;
 
 import java.util.Scanner;
 
